@@ -13,7 +13,7 @@ Learning vision processing for assistive displays through self-attention agents,
 
 BibTeX citation
 
-<pre class="citation long">@article{RuizSerra2021,
+<pre class="citation long">@article{Ruiz-Serra2021,
   author = {Ruiz-Serra, Jaime and
             White, Jack and
             Petrie, Stephen and
