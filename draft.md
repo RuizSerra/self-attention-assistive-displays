@@ -27,6 +27,10 @@ ______
 
 ## Training in simulation
 
+The agents are trained in Deepmind Lab <dt-cite key="Beattie2016"></dt-cite>
+"NavMaze" simulation environments with RGB-D observations (or variations thereof),
+and an action space size of 3.
+
 <div style="text-align: center;">
 <video class="b-lazy" src="assets/mp4/d2_10_0_overlay.mp4" type="video/mp4" autoplay muted playsinline loop style="margin: 0; width: 100%;" ></video>
 <figcaption style="text-align: left; padding-top: 0;">
@@ -70,12 +74,14 @@ ___________
 <div style="text-align: center;">
 <img src="assets/png/TVCG-main-figure.png" style="margin: 0; width: 100%;" ></img>
 <figcaption style="text-align: left; padding-top: 0;">
-The representations learnt in simulation translate to the real-world. Hyperparameters can
-be adjusted in real time in the final application.
+The representations learnt in simulation translate to the real-world.
+Hyperparameters can be adjusted in real time in the final application. For example,
+in this figure, <i>K=10</i> patches are selected in training, whereas <i>K=80</i>
+patches are selected in the real-world image.
 </figcaption>
 </div>
 
-
+Below we show different feature retrieval methods applied to real-world RGB-D video.
 
 ### Importance-luminance: ranking
 <div style="text-align: center;">
@@ -113,7 +119,7 @@ ___________
 
 
 <div style="text-align: center;">
-<video class="b-lazy" src="assets/mp4/oko-k-thd-2-clip.mp4" type="video/mp4" autoplay muted playsinline loop style="margin: 0; width: 100%;" ></video>
+<video class="b-lazy" src="assets/mp4/TODO.mp4" type="video/mp4" autoplay muted playsinline loop style="margin: 0; width: 100%;" ></video>
 <figcaption style="text-align: left; padding-top: 0;">
 Simulated Phosphene Visualisation (SPV)
 </figcaption>
