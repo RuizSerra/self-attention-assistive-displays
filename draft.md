@@ -121,26 +121,23 @@ ___________
 
 ### Simulated Phosphene Visualisation
 
-
-<div style="text-align: center;">
-<video class="b-lazy" src="assets/mp4/TODO.mp4" type="video/mp4" autoplay muted playsinline loop style="margin: 0; width: 100%;" ></video>
-<figcaption style="text-align: left; padding-top: 0;">
-Simulated Phosphene Visualisation (SPV)
-</figcaption>
-</div>
-
-<p></p>
-
 <div style="text-align: left;">
 <img src="assets/png/TVCG-SA-output-SPV.png" style="margin: 0; width: 100%;" ></img>
 <figcaption style="text-align: left; padding-top: 0;">
 SPV of different output modes (refer to Figure 5 in the paper).
 </figcaption>
 </div>
+<!--
+<div style="text-align: center;">
+<video class="b-lazy" src="assets/mp4/TODO.mp4" type="video/mp4" autoplay muted playsinline loop style="margin: 0; width: 100%;" ></video>
+<figcaption style="text-align: left; padding-top: 0;">
+Simulated Phosphene Visualisation (SPV)
+</figcaption>
+</div> -->
 
-
+<!-- <p></p>
 
 
 ### vOICe
 
-<dt-cite key="Meijer1993"></dt-cite>
+<dt-cite key="Meijer1993"></dt-cite> -->
