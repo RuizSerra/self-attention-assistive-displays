@@ -140,24 +140,3 @@ SPV of different output modes (refer to Figure 5 in the paper).
 ### vOICe
 
 <dt-cite key="Meijer1993"></dt-cite>
-
-
-
-_________________
-
-## Patch Analysis
-
-<div style="text-align: center;">
-<img src="assets/png/histogram_of_distances_to_centroids.png" style="margin: 0; width: 100%;" ></img>
-<figcaption style="text-align: left; padding-top: 0;">
-caption
-</figcaption>
-</div>
-
-
-<div style="text-align: center;">
-<img src="assets/png/histogram_of_importances_agents.png" style="margin: 0; width: 100%;" ></img>
-<figcaption style="text-align: left; padding-top: 0;">
-caption
-</figcaption>
-</div>
