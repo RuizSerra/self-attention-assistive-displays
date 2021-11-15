@@ -17,7 +17,7 @@ to the visual prostheses’ VPU to perform the vision processing.
 With the goal of simplifying visual representations of scenes
 for navigation by selecting relevant features, we build upon
 the work of Tang et al. <dt-cite key="Tang2020"></dt-cite>,
-adapting the RL agent they introduced to enable training in a 3D navigation simulation environment. We
+adapting the DRL agent they introduced to enable training in a 3D navigation simulation environment. We
 propose several methods to enhance the selected features,
 and adapt the vision processing pipeline to present the obtained representations through different display modalities,
 highlighting the method’s versatility. The resultant visualisations’ task-relevant features are enhanced, and those
@@ -83,31 +83,35 @@ patches are selected in the real-world image.
 
 Below we show different feature retrieval methods applied to real-world RGB-D video.
 
-### Importance-luminance: ranking
+### Importance ranking
 <div style="text-align: center;">
-<video class="b-lazy" src="assets/mp4/C1star_10_0_overlay.mp4" type="video/mp4" autoplay muted playsinline loop style="margin: 0; width: 100%;" ></video>
+<video class="b-lazy" src="assets/mp4/C4star_50_ranking.mp4" type="video/mp4" autoplay muted playsinline loop style="margin: 0; width: 100%;" ></video>
 <figcaption style="text-align: left; padding-top: 0;">
-Patch brightness is based on its importance ranking.
+Patch brightness is based on its importance ranking. Agent C4*, showing K=50 patches.
 </figcaption>
 </div>
 
-
-$f(q, Q_k) = I_k / \max_{n\in N}\{I_n\}$
-
-### Importance-luminance: log scale
-
-### Depth sampling: patch minimum
-
-$f(q, Q_k) {=} \min_{q'\in Q_k}\{\text{depth}(q')\} (I_k / \max_{n\in N}\{I_n\})$
-
-### Depth sampling: per-pixel
-
-Sampling depth data from the input image at the patch location, using per-pixel depth data: $f(q, Q_k) {=} \text{depth}(q) (I_k / \max_{n\in N}\{I_n\})$
-
+### Masked luminance
 <div style="text-align: center;">
-<video class="b-lazy" src="assets/mp4/rw-depth-pp-C4star_10_0_overlay.mp4" type="video/mp4" autoplay muted playsinline loop style="margin: 0; width: 100%;" ></video>
+<video class="b-lazy" src="assets/mp4/C4star_50_masked_intensity.mp4" type="video/mp4" autoplay muted playsinline loop style="margin: 0; width: 100%;" ></video>
 <figcaption style="text-align: left; padding-top: 0;">
-Having selected the most important patches, we can sample per-pixel depth data for the final visualisation.
+Luminance (greyscale) masked with selected patches. Agent C4*, showing K=50 patches.
+</figcaption>
+</div>
+
+### Masked depth
+<div style="text-align: center;">
+<video class="b-lazy" src="assets/mp4/C4star_50_masked_depth.mp4" type="video/mp4" autoplay muted playsinline loop style="margin: 0; width: 100%;" ></video>
+<figcaption style="text-align: left; padding-top: 0;">
+Depth channel (disparity values) masked with selected patches. Agent C4*, showing K=50 patches.
+</figcaption>
+</div>
+
+### Weighted depth
+<div style="text-align: center;">
+<video class="b-lazy" src="assets/mp4/C4star_weighted_depth.mp4" type="video/mp4" autoplay muted playsinline loop style="margin: 0; width: 100%;" ></video>
+<figcaption style="text-align: left; padding-top: 0;">
+Depth at the patch location is scaled by the patch importance value. Agent C4*, showing all patches.
 </figcaption>
 </div>
 
