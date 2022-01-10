@@ -9,7 +9,7 @@ The experiments in this work were performed on Swinburne University's [OzStar hi
 For attribution in academic contexts, please cite this work as:
 
 <pre class="citation short">Jaime Ruiz-Serra and Jack White and Stephen Petrie and Tatiana Kameneva and Chris McCarthy,
-Learning vision processing for assistive displays through self-attention agents, 2021.</pre>
+Learning vision processing for assistive displays through self-attention agents, 2022.</pre>
 
 BibTeX citation
 
@@ -23,7 +23,7 @@ BibTeX citation
   eprint = {},
   url    = {},
   note   = "\url{http://ruizserra.github.io/self-attention-assistive-displays}",
-  year   = {2021}
+  year   = {2022}
 }</pre>
 
 

@@ -42,8 +42,8 @@ For attribution in academic contexts, please cite this work as
 
 BibTeX citation
 ```
-@article{RuizSerra2021,
-  author = {Ruiz Serra, Jaime and
+@article{Ruiz-Serra2022,
+  author = {Ruiz-Serra, Jaime and
             White, Jack and
             Petrie, Stephen and
             Kameneva, Tatiana and
@@ -52,6 +52,6 @@ BibTeX citation
   eprint = {},
   url    = {},
   note   = "\url{}",
-  year   = {2021}
+  year   = {2022}
 }
 ```
